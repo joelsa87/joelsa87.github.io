@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit 8/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1551,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -56,11 +48,6 @@
 	},
 	"file_history":
 	[
-		"/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit 8/css/style.css",
-		"/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit 8/index.html",
-		"/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit6/style.css",
-		"/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit6/index.html",
-		"/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit4/index.html"
 	],
 	"find":
 	{
@@ -95,39 +82,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/joels/Documents/GitHub/joelsa87.github.io/unit 8/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								911,
-								911
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 561.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -167,7 +123,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "index.sublime-project",
+	"project": "style.sublime-project",
 	"replace":
 	{
 		"height": 0.0

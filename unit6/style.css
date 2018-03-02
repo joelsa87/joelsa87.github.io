@@ -24,8 +24,6 @@ h1 {
 
 #intro {
     background-image: url("../images/smoothie.jpg");
-
-    
 	background-size:center;
 	font-size: 2em;
 	height: 85vh;
@@ -63,6 +61,9 @@ h1 {
     clear: both;
     height: 0;
 }
+#recipes {}
+
+
 
 
   h3 {
@@ -88,7 +89,7 @@ h1 {
     float: center;
  }
 
- article1 {}   
+ h2 {}
   
   	   
  

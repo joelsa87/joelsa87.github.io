@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* {margin:0;padding:0;box-sizing:border-box;}
+ 
+ body{
+    background-color: #F4E0DC
+    font-family: georgia, serif;
+    font-size: 18px;
+    line-height: 1.5 px;
+    padding: 0;
+    margin: 0 auto;
+ }
+
+ 
+header {
+   background-color: #6DB293;
+   padding: 20px
+   margin:0;
+   padding: 20px 0;
+   min-height: 80px;
+   border-bottom: 2px solid green;
+ }
+ #wrapper{
+   background-color:#A5B4A7;
+ }
+
+.contenaire {
+     width: 80%;
+     margin: auto;
+     font-size: 16px;
+     
+}
+
+#logo h1 {
+   font-style: italic;
+   float: left;
+   color:#B44437;
+}
+
+
+ nav{
+  display : inline;
+  float:right;
+  margin-bottom: ;
+  text-align: center;
+ }
+
+ a{
+  text-decoration: none;
+  padding: 0 10px 20px 10px;
+  font-size: 1.4em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+ a:hover {
+     color:#F4B26E  ;
+ }
+
+ #title {
+     background-image: url("../images/smoothie.jpg");
+  background-size:center;
+  font-size: 2em;
+ min-height:499px;
+  padding: 3em 0 0;
+  text-align: center;
+  margin-bottom: 5px;
+
+ }
+ #title p{
+    font-size: 2em;
+
+ }
+ #lol {
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+ }
+
+ #main {
+  background-color: white;
+   margin: 0 0 10px 0;
+   display: inline block;
+
+
+ }
+ .box{  
+    width: 45%;
+    background-color: #9691A7;
+    float: left;
+    margin: 0 20px;
+    padding: 20px;
+    line-height: 1.4em;
+    font-size: 1.3em;
+  }
+  .box h2{
+     padding-bottom: 5px;
+     text-align: center;
+     line-height: 1.3em;
+  }
+
+
+  #first {
+    background-color: white;
+    display: inline block
+    
+
+  }
+  .demo {
+     width: 40%;
+     background-color: #73F694;
+     padding: 10px 40px 10px 40px;
+     margin: 0 20px;
+     float:left;
+  }
+  .demo p {
+    width: 70%;
+    font-size: 1.5em;
+  }
+  .demo h3 {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: lobster;
+        padding: 5px 0;
+  }
+  .demo img {
+       width:40%;
+       height:40%;
+  }    
+
+  ul {
+    margin: 0;
+
+  }
+  li {
+     list-style: none;
+     font-family:courier;
+  }
+  #second {
+    margin-top:20px;
+    display: inline;
+  }
+  .photo {
+     padding: 10px 20px;
+     float: left;
+    
+  }
+  .photo img{
+      width: 80%;
+      height: 80%;
+
+  }
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+   background-color: #6DB293;
+   padding: 20px
+   margin-top:5pxs;
+}
+footer p{
+    text-align: center;
+    margin-left: 20px;
+}
+footer img{
+      width: 2em;
+      height: 1.9em;
+      margin: 0 auto;
+      
+}
+@media only screen and (max-width: 768px) and (max-width: 480px) {
+  .box, .demo ,.photo {
+     float: none;
+     width: : auto;
+  }
+#logo h1 {
+  float: none;
+
+}
+ nav {
+  float : none;
+ }
+  
+@

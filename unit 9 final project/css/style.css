@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* {margin:0;padding:0;box-sizing:border-box;}
+ 
+ body{
+    font-family: georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+ }
+
+ 
+header {
+   background-color: #6DB293;
+   margin:0;
+   padding: 20px 0;
+   min-height: 80px;
+   border-bottom: 2px solid green;
+ }
+
+
+.contenaire {
+     width: 92%;
+     margin: auto;
+     font-size: 16px;
+     
+}
+
+#logo h1 {
+   font-style: italic;
+   float: left;
+   color:#B44437;
+}
+
+
+ nav{
+  display : inline;
+  float:right;
+  margin-bottom: ;
+  text-align: center;
+ }
+
+ a{
+  text-decoration: none;
+  padding: 0 10px 20px 10px;
+  font-size: 1.4em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+ }
+ a:hover {
+     color:#F4B26E  ;
+ }
+
+ #title {
+     background-image: url("../images/smoothie.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     font-size: 2em;
+     min-height:499px;
+     padding: 2em 0 0;
+     text-align: center;
+     margin-bottom: 0;
+ }
+ #title p{
+    font-size: 2em;
+
+ }
+ #lol {
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+ }
+#newsletter {
+     background-color: rgb(31, 53, 42);
+    padding: 65px;
+}
+#newsletter h1 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 8px;
+
+}
+#newsletter img {
+    float: right;
+    width: 260px;
+    height: 85px;
+    padding-bottom: 20px;
+}
+form {
+    display: block;
+  
+}
+ input{
+   font-size: 1.2em;
+ }
+.edit{
+   font-size: 1.1em;
+   padding: 4px;
+   color:#F65433; 
+}
+ #main {
+  color: white;
+  margin: 0;
+  display: inline block;
+ }
+ .box{
+    width: 48%;
+   background-color: #9691A7;
+    float: left;
+    margin: 0% 1% 2%;
+    padding: 5em 4em 2em 4em;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    min-height: 32em;
+  }
+  .box h2{
+     padding-bottom: 10px;
+     text-align: center;
+     line-height: 1.3em;
+     font-family: tahoma;
+  }
+
+
+  #first {
+    background-color: white;
+    display: inline block
+    
+
+  }
+  .demo {
+     width: 48%;
+     background-color: #73F694;
+     padding: 10px 40px 10px 40px;
+     margin: 0 1%;
+     float:left;
+  }
+  .demo p {
+    /* width: 70%; */
+    font-size: 1.5em;
+  }
+  .demo h3 {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: lobster;
+        padding: 5px 0;
+  }
+  .demo img {
+       width: 50%;
+       /* height:40%; */
+       float: left;
+       margin-right: 2em;
+  }    
+
+  ul {
+    margin: 0;
+
+  }
+  li {
+     list-style: none;
+     font-family:courier;
+  }
+  #second {
+    margin-top:20px;
+    display: inline;
+  }
+  .photo {
+     padding: 10px 20px;
+     float: left;
+     width: 50%;
+  }
+  .photo img{
+      width: 100%;
+  }
+  .photo h4
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+   background-color: #6DB293;
+   padding: 20px
+   margin-top:5px;
+   clear: both;
+}
+footer {
+    text-align: center;
+    padding: 4em 0;
+    
+}
+footer img{
+      width: 2em;
+      height: 1.9em;
+      margin: 0 auto;
+      
+}
+@media only screen and (max-width: 768px) {
+  .box, .demo ,.photo {
+     float: none;
+     width: auto;
+  }
+#logo h1 {
+  float: none;
+
+}
+ nav {
+  float : none;
+ }
+  }
